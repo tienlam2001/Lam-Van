@@ -1,0 +1,45 @@
+#myNumber{
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  left: 25%;
+  top: 0;
+  text-shadow: 3px 3px 3px;
+}
+@media(min-width: 1800px){
+  #myNumber{
+    left: 40%;
+  }
+}
+@media (min-width: 1200px) {
+    #myNumber{
+      left: 30%;
+    }
+}
+@media (max-width : 900px){
+  #myNumber{
+    left: 30%;
+      font-size: 30px;
+  }
+}
+
+html, body {
+  overflow: hidden;
+	background-color: black;
+}
+#description{
+  position: absolute;
+  top: 90%;
+  color:white;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px;
+}
+#guide{
+  position: absolute;
+  top: 90%;;
+  left: 80%;
+  color:white;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px Lightblue;
+
+}
